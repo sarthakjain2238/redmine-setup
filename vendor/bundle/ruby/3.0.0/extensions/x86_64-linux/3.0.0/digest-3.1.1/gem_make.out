@@ -1,0 +1,19 @@
+current directory: /home/sarthak2238/redmine-5.0.0/vendor/bundle/ruby/3.0.0/gems/digest-3.1.1/ext/digest/sha2
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20241019-19098-iny63f.rb extconf.rb
+checking for CommonCrypto/CommonDigest.h... no
+checking for u_int8_t... yes
+checking for sys/cdefs.h... yes
+creating Makefile
+
+current directory: /home/sarthak2238/redmine-5.0.0/vendor/bundle/ruby/3.0.0/gems/digest-3.1.1/ext/digest/sha2
+make DESTDIR\= clean
+
+current directory: /home/sarthak2238/redmine-5.0.0/vendor/bundle/ruby/3.0.0/gems/digest-3.1.1/ext/digest/sha2
+make DESTDIR\=
+compiling sha2.c
+compiling sha2init.c
+linking shared-object digest/sha2.so
+
+current directory: /home/sarthak2238/redmine-5.0.0/vendor/bundle/ruby/3.0.0/gems/digest-3.1.1/ext/digest/sha2
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 sha2.so ./.gem.20241019-19098-1vad09/digest
